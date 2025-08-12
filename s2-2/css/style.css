@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+#contenedor-img{
+  width: 70%;
+  position: fixed;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  border-color: blue;
+  border-style: solid;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#ventana1{
+  position: absolute;
+  top: 14%;
+  left: 33%;
+  width: 4%;
+  height: 10%;
+  opacity: 0;
+}
+
+#ventana1:hover{
+  position: absolute;
+  opacity: 1;
+  border-color: red;
+  border-style: solid;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+
