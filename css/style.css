@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+   font-family: "Space Grotesk", sans-serif;
+}
+
+#contenedor{
+  position: fixed;
+  width: 60%;
+  height: auto;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+  top: 40px;
+  left: 20%;  
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+   color: blue; 
+}
+
+.numero{
+    font-size: 20px;
+}
